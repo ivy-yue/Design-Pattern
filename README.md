@@ -5,10 +5,15 @@ Task 2
 #Learning Process
 Composite 27
 將物件(s) 組成/構成 為樹狀結構，用以表示 "局部-全部" 階層體系。 Composite 可以讓 clients 以一致的方式對待「個別物件」和「合成物件」。
+
 常見例子:
+
 •File system:directory 內有許多 files。然而 files 和 directories 被一視同仁。 
+
 •Windowing system:每一個視窗內還可以再開視窗。 
+
 •另，本身是樹狀結構的 data structures，也就相當於 Composite。 
+
 •Command 中建立 macro command 時也會用到 Composite。
 
 
@@ -17,4 +22,5 @@ Undo/Redo 124
 
 Observer 14
 在 objects 之間定義 "一對多" 依存性，使得當 object 改變狀態時，它所 依存的所有 objects 都會獲得通知並自動更新。
+
 Observer 是被動地被通知，而不是主動觀察，所以這個 pattern 的另一 個名稱 publish-subscribe 也許更合適些。
