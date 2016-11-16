@@ -24,3 +24,19 @@ Observer 14
 在 objects 之間定義 "一對多" 依存性，使得當 object 改變狀態時，它所 依存的所有 objects 都會獲得通知並自動更新。
 
 Observer 是被動地被通知，而不是主動觀察，所以這個 pattern 的另一 個名稱 publish-subscribe 也許更合適些。
+
+
+#How to display
+Observer
+热水器与报警器：设定一个报警温度，到达这个温度之后notify三个报警器
+来模拟一对多的观察者模式
+
+Composite
+【参考侯老师给出的例子】模拟文件系统，用cmd输出文件结构
+
+Undo/Redo
+【没太想好，因为不会用c++写图形化界面】
+
+#My State
+define Observer.h contains main class, but haven't implement its interfaces and functions
+define Composite.h
