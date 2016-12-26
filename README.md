@@ -44,7 +44,7 @@ define Observer.h contains main class, but haven't implement its interfaces and 
 define Composite.h
 
 # 传送门
-[composite](https://github.com/ivy-yue/Composite)
-[Observer](https://github.com/ivy-yue/Observer)
-[Undo/Redo](https://github.com/ivy-yue/Undo-Redo)
+-[composite](https://github.com/ivy-yue/Composite)
+-[Observer](https://github.com/ivy-yue/Observer)
+-[Undo/Redo](https://github.com/ivy-yue/Undo-Redo)
 
